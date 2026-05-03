@@ -41,7 +41,7 @@ function checkQueryFromInput (){
 
 async function getQuery(cityName){     //запрос на информацию о введенном городе
 
-    const serverUrl = 'http://api.openweathermap.org/data/2.5';
+    const serverUrl = 'https://api.openweathermap.org/data/2.5';
     const apiKey = 'f660a2fb1e4bad108d6160b7f58c555f';
 
     const urlNow = `${serverUrl}/weather?q=${cityName}&units=metric&appid=${apiKey}`;
